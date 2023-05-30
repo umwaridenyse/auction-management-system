@@ -1,0 +1,70 @@
+body{
+    background-image: url(./best\ one.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.forms {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.login input {
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px dotted;
+    outline: none;
+    width: 300px;
+}
+
+#login {
+    background: hotpink;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.signup {
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    border: 1px solid;
+    display: none;
+}
+
+.signup input {
+    width: 300px;
+    padding: 15px;
+    border: 1px dotted;
+    border-radius: 10px;
+}
+
+#signup {
+    padding: 15px;
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: bold;
+    background: hotpink;
+}
